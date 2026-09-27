@@ -1,0 +1,14 @@
+[project]
+name = "omar-gaia-agent"
+version = "0.1.0"
+description = "A compact Groq-powered agent for the Hugging Face GAIA evaluation"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+
+dependencies = [
+    "gradio[oauth]==5.25.2",
+    "groq>=1.7.0",
+    "pandas>=2.0.0",
+    "python-dotenv>=1.2.3",
+    "requests>=2.32.0",
+]
